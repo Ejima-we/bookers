@@ -32,6 +32,11 @@ a:hover {
   color: white;
   background-color: #000;
 }
+
+.flash {
+  color: green;
+  padding: 20px;
+}
 /*--------top---------*/
 
 .heading {
@@ -42,9 +47,27 @@ span {
   font-weight: bold;
 }
 
-.top-message > p {
-  margin-bottom: 20px;
+.top p {
+  margin: 0 0 20px 30px;
 }
+
+.error {
+  width: 800px;
+  background-color: #EEEEEE;
+  border: solid 2px;
+  border-color: red;
+}
+
+.error-text {
+  font-size: 20px;
+  padding-left: 30px;
+  background-color: red;
+  color: white;
+}
+.error-message {
+  padding: 40px 0 40px 60px;
+}
+
 
 /*--------index----------*/
 
@@ -79,5 +102,5 @@ textarea {
 /*----------edit-----------*/
 
 .edit p {
-  margin-top: 20px
+  margin-top: 20px;
 }
