@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.top {
+.top, .index {
   padding: 30px;
 }
 
@@ -35,7 +35,7 @@ a:hover {
 /*--------top---------*/
 
 .heading {
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .Bookers {
@@ -44,4 +44,24 @@ a:hover {
 
 .top-message > p {
   margin-bottom: 20px;
+}
+
+/*--------index----------*/
+
+.index > h2 {
+  margin: 20px 0;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+input {
+  display: block;
+}
+
+textarea {
+  margin-bottom: 15px;
 }
