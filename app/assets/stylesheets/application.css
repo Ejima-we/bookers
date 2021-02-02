@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.top, .index, .show {
+.top, .index, .show, .edit {
   padding: 30px;
 }
 
@@ -74,4 +74,10 @@ textarea {
 
 .show-content p {
   margin-bottom: 30px;
+}
+
+/*----------edit-----------*/
+
+.edit p {
+  margin-top: 20px
 }
