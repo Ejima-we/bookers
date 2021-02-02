@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  padding: 30px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: white;
+  background-color: #000;
+}
+/*--------top---------*/
+
+.heading {
+  margin-bottom: 30px
+}
+
+.Bookers {
+  font-weight: bold;
+}
+
+.top-message > p {
+  margin-bottom: 20px;
+}
