@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.top, .index {
+.top, .index, .show {
   padding: 30px;
 }
 
@@ -38,7 +38,7 @@ a:hover {
   margin-bottom: 30px;
 }
 
-.Bookers {
+span {
   font-weight: bold;
 }
 
@@ -64,4 +64,14 @@ input {
 
 textarea {
   margin-bottom: 15px;
+}
+
+/*---------show--------------*/
+
+.show-content {
+  padding-left: 40px;
+}
+
+.show-content p {
+  margin-bottom: 30px;
 }
